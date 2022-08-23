@@ -1,0 +1,30 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+h1{font-family: 'Courier New', Courier, monospace;
+color: darkorchid; background-color: aquamarine;
+font-size: 45px; display: flex; justify-content: center;}
+
+h1:hover{
+    color: crimson; transition: 1s;
+}
+
+h2{display: flex;justify-content: center;}
+
+.albumTit{ color:darkred; background-color: bisque;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
